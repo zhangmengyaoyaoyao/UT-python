@@ -30,6 +30,32 @@ def lec3():
     x3 = 3
     print(x1 + x2 + x3)
 
+def quiz7():
+    for i in range(6):
+        print(i)
+
+def quiz8():
+    L = [0]*3
+    print(L)
+    L = [0, 1, 2] + [3, 4, 5]
+    print(L)
+    list1 = [0, 1, 2]
+
+    list2 = list1
+
+    list2[2] = 10
+
+    print(list1) 
+
+    print(list2)
+
+
 
 if __name__ == "__main__":
-    lec3()
+    list1 = [0, 1, 2]
+
+    list2 = list1
+
+    list2[2] = 10 
+
+    print(list2)
